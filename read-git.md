@@ -9,7 +9,7 @@
     + 把文件从工作区送到暂存区
 - $ git status 
     + 查看当前状态 
-        * 红色 就是工作区 
+        * 红色 就是工作区
         * 绿色就是暂存区 
         * nothing to commit, working directory clean 在版本区
 - $ git commit -m '版本号'
@@ -70,7 +70,8 @@
         * `ssh-keygen -t rsa -C "xiaoming@sina.com"`
     ## push和pull操作
 #先pull , 再push
-
+- 如果提交未成功 先 pull 在push   提交成功
+# 快捷工具
 - $ git remota add origin git@github.com:Jiangtao1994/1994.git
     + 声明 origin 
         * $ git push origin master
